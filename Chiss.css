@@ -1,0 +1,123 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('https://img.freepik.com/free-vector/prickly-juniper-branch-beige-gray-minimal-background_53876-113047.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    color: #333; 
+}
+
+
+header {
+    background: rgba(51, 51, 51, 0.8); 
+    color: #fff; 
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 1rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); 
+    margin: 1rem auto; 
+    border-radius: 8px; 
+    max-width: 800px;
+}
+
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.profile img {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border: 3px solid #333; 
+}
+
+
+section#home {
+    background: rgba(255, 235, 205, 0.8); 
+}
+
+section#about {
+    background: rgba(230, 230, 250, 0.8); 
+}
+
+section#contact {
+    background: rgba(211, 255, 211, 0.8); 
+}
+
+
+footer {
+    background: rgba(51, 51, 51, 0.8); 
+    color: #fff; 
+    text-align: center;
+    padding: 1rem;
+}
+
+
+section#about ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+section#about ul li {
+    margin: 0.5rem 0;
+}
+
+section#about ul li::before {
+    content: "• ";
+    color: #333;
+    font-weight: bold;
+}
+
+
+section#contact p {
+    margin: 0.5rem 0;
+}
+
+section#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
+
+
+html, body {
+    height: 100%;
+    overflow-x: hidden; 
+}
